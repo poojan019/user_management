@@ -103,7 +103,6 @@ def delete_user(doc_id: str):
 async def send_invitation():
     recipients = os.getenv("EMAIL_RECIPIENTS").split(",")
 
-    redoc_link = "https://user-management-api-dp57.onrender.com/redoc"
     firestore_screenshot = "firestore_screenshot.png"
 
     if not os.path.exists(firestore_screenshot):
