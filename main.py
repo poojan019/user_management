@@ -104,7 +104,7 @@ async def send_invitation():
     recipients = os.getenv("EMAIL_RECIPIENTS").split(",")
 
     redoc_link = "http://127.0.0.1:8000/redoc"
-    firestore_screenshot = "/home/razer/Desktop/aviato/user_management/firestore_screenshot.png"
+    firestore_screenshot = "firestore_screenshot.png"
 
     if not os.path.exists(firestore_screenshot):
         raise HTTPException(status_code=400, detail="Attachment file not found")
