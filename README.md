@@ -34,7 +34,7 @@ GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/genuine-plating-443614-v6-d0069e34
 MAIL_USERNAME="your-email@gmail.com"
 MAIL_PASSWORD="your-email-password"
 MAIL_FROM="your-email@gmail.com"
-EMAIL_RECIPIENTS="shraddha@aviato.consulting,pooja@aviato.consulting,prijesh@aviato.consulting,hiring@aviato.consulting"
+EMAIL_RECIPIENTS="recipients@mail.com"
 ```
 Ensure you do not push your .env file to GitHub by adding it to the .gitignore file.
 ### 4. Run the application
