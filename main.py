@@ -149,7 +149,7 @@ async def send_invitation():
             <h1>API Documentation Invitation</h1>
             <p>Hello,</p>
             <p>I am excited to invite you to view our User Management API documentation on ReDoc. You can access the documentation by clicking the button below:</p>
-            <button>View API Documentation</button>
+            <button>View API Documentation(Link goes here)</button>
             <p>We appreciate your time and look forward to your feedback.</p>
             <div class="blue-background container">
                 <p>Thank you,</p>
