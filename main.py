@@ -103,7 +103,7 @@ def delete_user(doc_id: str):
 async def send_invitation():
     recipients = os.getenv("EMAIL_RECIPIENTS").split(",")
 
-    redoc_link = "http://127.0.0.1:8000/redoc"
+    redoc_link = "https://user-management-api-dp57.onrender.com/redoc"
     firestore_screenshot = "firestore_screenshot.png"
 
     if not os.path.exists(firestore_screenshot):
@@ -149,7 +149,9 @@ async def send_invitation():
             <h1>API Documentation Invitation</h1>
             <p>Hello,</p>
             <p>I am excited to invite you to view our User Management API documentation on ReDoc. You can access the documentation by clicking the button below:</p>
-            <button>View API Documentation(Link goes here)</button>
+            <a href="https://user-management-api-dp57.onrender.com/redoc">
+                <button>View API Documentation</button>
+            </a>
             <p>We appreciate your time and look forward to your feedback.</p>
             <div class="blue-background container">
                 <p>Thank you,</p>
